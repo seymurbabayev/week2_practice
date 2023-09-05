@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333;
+    height: 70px;
+    padding: 20px 0;
+    text-align: center;
+}
+.title {
+    margin: 0;
+    color: #eee;
+    font-size: 28px;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+#main-bio {
+    width: 70%;
+    float: left;
+}
+#main-bio p {
+    margin-top: 30px;
+}
+#bio-image {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+#contact-info {
+    width: 30%;
+    float: left;
+}
+#contact-info li {
+    font-weight: bold;
+}
+#contact-info a {
+    color: #d21034;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #ccc;
+    height: 50px;
+}
+
+.dark, .light {
+    width: calc(100% / 3);
+    float: left;
+    height: 70px;
+    margin: 20px 0;
+    color: #fff;
+}
+.dark {
+    background-color: #666;
+}
+.light {
+    background-color: #888;
+}
+.lighter {
+    background-color: #eee;
+    height: 500px;
+}
+.lighter aside {
+    background-color: #fff;
+    height: 350px;
+    width: 350px;
+    float: left;
+}
+.lighter div {
+    background-color: #6ea3da;
+    height: 50px;
+}
+.footer {
+    background-color: #ccc;
+    height: 50px;
+}
